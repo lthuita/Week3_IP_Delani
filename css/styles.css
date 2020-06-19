@@ -1,0 +1,19 @@
+
+.pager{
+  background-image: url('backgrounds/h_img.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding-top:15%;
+  font-family: sans-serif;
+
+}
+
+
+#mouse_click{
+  text-align: center;
+  margin-top: 10%;
+  color: inherit;
+}
