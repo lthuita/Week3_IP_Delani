@@ -70,3 +70,34 @@ $(document).ready(function(){
     $("#img8").fadeTo(1, 1.0);
   });
 });
+
+$(document).ready(function(){
+  $("#design-image").click(function(){
+    $(this).hide();
+    $("#design").show();
+  });
+      $("#design").click(function(){
+      $(this).hide();
+      $("#design-image").show();
+    });
+});
+$(document).ready(function(){
+  $("#development-image").click(function(){
+    $(this).hide();
+    $("#development").show();
+  });
+      $("#development").click(function(){
+      $(this).hide();
+      $("#development-image").show();
+    });
+});
+$(document).ready(function(){
+  $("#product-image").click(function(){
+    $(this).hide();
+    $("#product").show();
+  });
+      $("#product").click(function(){
+      $(this).hide();
+      $("#product-image").show();
+    });
+});
