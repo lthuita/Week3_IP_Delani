@@ -45,9 +45,36 @@
 }
 .portfolio{
   padding-top: 3%;
+  padding-bottom: 5%;
+
+}
+#work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8{
+  display: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+  top: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 20%;
+  font-style: sans-serif;
+}
+.portfolio img{
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio p{
+  display: none;
+  position: absolute;
 }
 .portfolio h1{
   text-align: center;
+}
+#product, #development, #design{
+  display: none;
+  font-style: sans-serif;
+  font-size: 16px;
 }
 .col-md-3 img{
   max-width: 100%;
