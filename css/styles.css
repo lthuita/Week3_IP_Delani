@@ -69,7 +69,6 @@
   padding: 5%;
   padding-bottom: 15%;
   padding-top: 5%;
-
   font-family: 'Dokdo', cursive;
 }
 .portfolio img{
@@ -106,7 +105,7 @@
 }
 .form{
   background: transparent;
-    color: white;
+  color: white;
   }
 .footer{
   padding-top: 5%;
@@ -120,4 +119,9 @@
 
 .alert{
   font-family: 'Tangerine', sans-serif;
+}
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
 }
